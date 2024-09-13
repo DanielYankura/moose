@@ -1,0 +1,6 @@
+# Butterfly Valve Example
+
+Butterfly valves are commonly used in nuclear reactors as a means of controlling incompressible fluid flow. The Advanced Test Reactor (ATR) at Idaho National Laboratories utilizes a buttefly-valve to control pressure drop across the reactor core. Simulations of this valve were conducted using the MOOSE Navier-Stokes module. The Reynolds number for these simulations was in the order of $10^6$. To compare to experimental data, simulations were conducted for 5 different angles ($0\degree$, 19.7$\degree$, 22.5$\degree$, 36.6$\degree$, and 42.7$\degree$). For each angle a coarse, medium, and fine mesh were made using Cubit. Some angles were tested experimentally at multiple flow-rates. For theses cases simulations were performed for each flow-rate.
+
+Included is a zip folder containing the the meshes used, the MOOSE input files for each configuration, and pbs submission scripts. In this folder, a ReadMe is also included which goes over what changes need to be made to the pbs scripts before they can be used. Users will also have to build MOOSE locally beforehand. Instructions for downloading, and building MOOSE can be found [here](https://mooseframework.inl.gov/getting_started/installation/index.html).
+

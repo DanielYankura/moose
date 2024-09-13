@@ -69,4 +69,8 @@ future these kernel sets will be consolidated into a single set.
 
 For an introductory slideshow on the use of the Navier Stokes Finite Volume solvers in MOOSE, we refer the visitor to the [Navier Stokes Workshop Slides](slides/index.md optional=True).
 
+# Examples
+
+Work on this but link to [butterfly_valve.md]
+
 !syntax complete groups=NavierStokesApp
