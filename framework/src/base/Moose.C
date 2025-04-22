@@ -255,6 +255,7 @@ addActionTypes(Syntax & syntax)
   registerTask("set_global_params", false);
   registerTask("setup_adaptivity", false);
   registerTask("meta_action", false);
+  registerTask("input_action", false);
   registerTask("setup_residual_debug", false);
   registerTask("setup_oversampling", false);
   registerTask("deprecated_block", false);

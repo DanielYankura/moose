@@ -66,6 +66,7 @@ associateSyntaxInner(Syntax & syntax, ActionFactory & /*action_factory*/)
   registerSyntax("CavityPressureAction", "BCs/CavityPressure/*");
   registerSyntax("CavityPressurePPAction", "BCs/CavityPressure/*");
   registerSyntax("CavityPressureUOAction", "BCs/CavityPressure/*");
+  registerSyntax("InputFileTestAction", "InputFileAction");
 
   registerDeprecatedSyntax("LegacyTensorMechanicsAction",
                            "Kernels/TensorMechanics",
